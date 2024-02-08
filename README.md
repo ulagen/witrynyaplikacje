@@ -1,2 +1,0 @@
-# witrynyaplikacje
-ćwiczenia Maciej Pacuk
