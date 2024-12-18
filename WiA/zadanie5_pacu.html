@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Pacuk 3G</title>
+		<script language="JavaScript">
+			function WinOpen_pacuk_1() {
+				window.open("grafika1.png","okienko_grafika1","toolbar=no,directories=no,menubar=no,height=512,width=256,top=500,left=300");
+			}
+			function WinOpen_pacuk_2() {
+				window.open("grafika2.png","okienko_grafika2","toolbar=no,directories=no,menubar=no,height=512,width=256,top=350,left=600");
+			}
+			function WinOpen_pacuk_3() {
+				window.open("grafika3.png","okienko_grafika3","toolbar=no,directories=no,menubar=no,height=512,width=256,top=200,left=900");
+			}
+			function WinOpen_pacuk_4() {
+				window.open("grafika4.png","okienko_grafika4","toolbar=no,directories=no,menubar=no,height=512,width=256,top=50,left=1200");
+			}
+			function okno_zamknij_pacuk_1() {
+				window.close()
+			}
+		</script>
+	</head>
+	<body>
+		<h1 style="color:red;font-size:2cm;text-align:center">Wykonał: Maciej Pacuk mój numer w dzienniku 23, czyli mam układ [(23)mod 4=3] układ 3</h1>
+		<form>
+		<input type="button" name="grafika1" value="grafika1" onclick="WinOpen_pacuk_1(' ')">
+		<input type="button" name="grafika2" value="grafika2" onclick="WinOpen_pacuk_2(' ')">
+		<input type="button" name="grafika3" value="grafika3" onclick="WinOpen_pacuk_3(' ')">
+		<input type="button" name="grafika4" value="grafika4" onclick="WinOpen_pacuk_4(' ')">
+		<input type="button" value="zamknij okno" onclick="okno_zamknij_pacuk_1()"/>
+		</form>
+	</body>
+</html>
